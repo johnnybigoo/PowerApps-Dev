@@ -1,0 +1,3 @@
+{
+  "AppFromDataMetaDataIdsToEntityNameMappings": "{\"%DataSourceName.AFD%\":\"Tab_Funcionários\",\"%DataSourceValue.AFD%\":\"[@Tab_Funcionários]\",\"%SortFieldName.AFD%\":\"\\\"Centro_x0020_de_x0020_Custo\\\"\",\"%SearchFieldName.AFD%\":\"\\\"Centro_x0020_de_x0020_Custo\\\",\\\"CodFuncionario\\\",\\\"Genero\\\"\",\"%StartsWithFieldName.AFD%\":\"Centro_x0020_de_x0020_Custo\",\"%DeleteConfirmFieldName.AFD%\":\"Centro_x0020_de_x0020_Custo\",\"%SortDescending.AFD%\":\"SortDescending1\",\"%BrowseScreen.AFD%\":\"BrowseScreen1\",\"%DetailScreen.AFD%\":\"DetailScreen1\",\"%EditScreen.AFD%\":\"EditScreen1\",\"%BrowseContainer.ID%\":\"BrowseGallery1\",\"%DetailEditContainer.ID%\":\"EditForm1\"}"
+}

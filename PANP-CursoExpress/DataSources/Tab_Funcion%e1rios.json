@@ -1,0 +1,32 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2022-03-17T16:21:38.8920000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "__PowerAppsId__": "Row id",
+      "Centro_x0020_de_x0020_Custo": "Centro de Custo",
+      "CodFuncionario": "CodFuncionario",
+      "Data_x0020_Admissao": "Data Admissao",
+      "Data_x0020_Demissão": "Data Demissão",
+      "Foto": "Foto",
+      "Genero": "Genero",
+      "Motivo_x0020_Demissão": "Motivo Demissão",
+      "Nome": "Nome",
+      "Salário": "Salário",
+      "Situação": "Situação",
+      "Tipo_x0020_de_x0020_Trabalho": "Tipo de Trabalho",
+      "Tipo_x0020_Pagamento": "Tipo Pagamento",
+      "Unidade": "Unidade"
+    },
+    "DatasetName": "b!QV_df9Cjtk-kSKdeLfiIDkJYWA_VEspNn0yha3E8zUTrdhGKbMhUTaJKW3Ae-ut6.01IEENVHHZ7R4CO2QA3NH3FBKUS35TH3XV",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Tab_Funcionários",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]
