@@ -9,7 +9,7 @@
         Fill: =RGBA(58, 58, 58, 0)
         Height: =88
         Size: =27
-        Text: ="Tab_Funcionários"
+        Text: ="Funcionários"
         Width: =Parent.Width - Self.X - IconSortUpDown1.Width - IconNewItem1.Width - IconRefresh1.Width
         Wrap: =false
         X: =20
@@ -99,7 +99,7 @@
         ZIndex: =8
 
     "BrowseGallery1 As gallery.'BrowseLayout_Vertical_ThreeTextOneImageVariant_ver4.0'":
-        Height: =Parent.Height - Self.Y
+        Height: =687
         Items: =SortByColumns(Search([@Tab_Funcionários], TextSearchBox1.Text, "Centro_x0020_de_x0020_Custo","CodFuncionario","Genero"), "Centro_x0020_de_x0020_Custo", If(SortDescending1, Descending, Ascending))
         Layout: =Layout.Vertical
         OnSelect: =Navigate(DetailScreen1, ScreenTransition.None)
@@ -183,4 +183,20 @@
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =6
+
+    Button1 As button:
+        Fill: =RGBA(179, 55, 103, 1)
+        Height: =70
+        OnSelect: =
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =24
+        Text: ="Click here"
+        Tooltip: ="By clicking here, you'll be redirected to X screen."
+        Width: =280
+        X: =170
+        Y: =967
+        ZIndex: =10
 
