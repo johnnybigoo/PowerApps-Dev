@@ -16,6 +16,8 @@
         Layout: =Layout.Vertical
         OnSelect: =Navigate(DetailScreen1, ScreenTransition.None)
         ShowScrollbar: =false
+        TemplateFill: |
+            =If(ThisItem.Genero = "Masculino", LightBlue, Pink)
         TemplatePadding: =4
         TemplateSize: =Min(320, Self.Height - 60)
         Width: =Parent.Width
@@ -58,7 +60,7 @@
             PaddingRight: =0
             PaddingTop: =0
             Size: =20
-            Text: =ThisItem.'Centro de Custo'
+            Text: =ThisItem.Genero
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 64
             X: =32
@@ -78,8 +80,8 @@
             Text: =ThisItem.CodFuncionario
             VerticalAlign: =VerticalAlign.Top
             Width: =Title1.Width
-            X: =Title1.X
-            Y: =Title1.Y + Title1.Height + 8
+            X: =10
+            Y: =10
             ZIndex: =4
 
     LblAppName1 As label:
@@ -152,6 +154,7 @@
         PressedFill: =RGBA(255, 255, 255, 0.3)
         TabIndex: =0
         Tooltip: ="Create new item"
+        Visible: =false
         Width: =88
         X: =Parent.Width - Self.Width
         ZIndex: =5
