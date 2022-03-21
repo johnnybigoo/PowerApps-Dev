@@ -37,7 +37,7 @@
         DisplayMode: =If(DataSourceInfo([@Tab_Funcionários], DataSourceInfo.EditPermission), DisplayMode.Edit, DisplayMode.Disabled)
         Height: =88
         Icon: =Icon.Edit
-        OnSelect: =FormScreen1(EditForm2);Navigate(EditForm2, ScreenTransition.None)
+        OnSelect: =EditForm(EditForm2);Navigate(FormScreen1, ScreenTransition.None)
         PaddingBottom: =24
         PaddingLeft: =24
         PaddingRight: =24
